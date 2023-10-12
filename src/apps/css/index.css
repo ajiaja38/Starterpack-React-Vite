@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container-login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm {
+  border-radius: 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;}
+
+.loginForm .field {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.field input, .field button {
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #818181;
+  transition: all ease-in-out .1s;
+}
+
+.field button:hover {
+  background-color: salmon;
+}
+
+.field button:active {
+  background-color: lightblue;
+}
+
+.field label {
+  margin-bottom: 10px;
+}
